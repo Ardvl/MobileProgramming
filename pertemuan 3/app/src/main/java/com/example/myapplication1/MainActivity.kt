@@ -72,7 +72,7 @@ fun IdentityCard() {
             )
             Spacer(modifier = Modifier.height(16.dp))
             Image(
-                painter = painterResource(id = R.drawable.poto_ori),
+                painter = painterResource(id = R.drawable.foto_ardan),
                 contentDescription = "Foto Profil",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
@@ -83,11 +83,11 @@ fun IdentityCard() {
             Column(horizontalAlignment = Alignment.Start) {
                 Row {
                     Text(text = "Nama: ", fontWeight = FontWeight.Bold)
-                    Text(text = "Tajri rizki ansori")
+                    Text(text = "Ardan Diva Algandhi")
                 }
                 Row {
                     Text(text = "NIM: ", fontWeight = FontWeight.Bold)
-                    Text(text = "32010036")
+                    Text(text = "32010037")
                 }
                 Row {
                     Text(text = "Jurusan: ", fontWeight = FontWeight.Bold)
